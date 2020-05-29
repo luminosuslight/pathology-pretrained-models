@@ -1,10 +1,10 @@
-# Pre-trained Cell Segmentation Models
+# Pre-trained HistoFlow Cell Segmentation Models
 
-Machine Learning models for a fast.ai v1 ResNet18 U-Net CNN, to be used with the tool from pathology-ml-model-training repository. See the to-be-released thesis and paper for details.
+Machine Learning models for a fast.ai v1 ResNet18 U-Net CNN, to be used with the [HistoFlow](https://github.com/luminosuslight/pathology-ml-model-training) tool. See the to-be-released thesis and paper for details.
 
 ## Usage
 
-Copy the models to the server of the tool from the `pathology-ml-model-training` repository. While it is not yet possible to choose external models in the UI (as of May 27th 2020), the feature is planned and meanwhile the model can be hardcoded to be the default model in the server (in `server/main.py`).
+Copy the models to the HistoFlow server from the `pathology-ml-model-training` repository. While it is not yet possible to choose external models in the UI (as of May 27th 2020), the feature is planned and meanwhile the model can be hardcoded to be the default model in the server (in `server/main.py`).
 
 For each model `trained_model.pth` and `input/export.pkl` is provided. The first is used for easy inference and the second is provided to be able to use the model for transfer learning and retrain it.
 
